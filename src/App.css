@@ -1,0 +1,35 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.searchButton{
+  width: 64px;
+  height: 32px;
+  display: flex;
+  object-fit: contain;
+}
+
+.search{
+  display: flex;
+}
+.definitions{
+  border:2px solid #243e3b;
+  border-radius: 4px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.definition{
+  margin: 10px;
+}
+
+.extra{
+  display: flex;
+  justify-content: center;
+}
+
+.sinant:hover{
+  cursor: pointer;
+}
